@@ -1,0 +1,53 @@
+:root {
+  font-family: 'Press Start 2P', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #71c5cf;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  border: 2px solid #000;
+  background-color: #71c5cf;
+  display: block;
+  margin: 0 auto;
+}
+
+.game-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.score-display {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  text-align: center;
+  width: 100%;
+}
+
+.instructions {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 0.9rem;
+}
